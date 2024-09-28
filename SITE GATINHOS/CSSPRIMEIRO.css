@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Buycat';
+    src: url('Buycat.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Oswald';
+    src: url('Oswald-VariableFont_wght.ttf') format('truetype');
+}
+.crazycat{
+    font-family: "Buycat";
+    font-size: 60px;
+    margin-top: 20px;
+    color: black;
+}
+.barrinha{
+    background-color: #FFCB04;
+    margin-top: 0;
+    width: "device-width";
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 20px;
+    height: 20px;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.botoes{
+    font-family: 'Oswald';
+    margin-top: 0px;
+    background-color: #FFCB04;
+    border-color: transparent;
+    font-size: 25px;
+}
+
+.subtitulo{
+    font-family: "Oswald";
+    text-align: center;
+    font-size: 30px;
+}
+
+.pesquisa{
+    text-align: center;
+}
+
+.barraPesquisa{
+    font-family: "Oswald";
+    font-size: 15px;
+
+    border: black solid 2px;
+    border-radius: 40px;
+
+    height: 60px;
+    width: 40%;
+    text-align: start;
+}
+
+.quadrados{
+    background-color:#ffeb9b;
+    border:#FFCB04 3px solid;
+    
+    width: 70%;
+    height: 200px;
+    
+    margin-top: 20px;
+    margin-left: 30vh;
+    margin-right: -10vh;
+
+    justify-content: space-around;
+    display: flex;
+}
+
+.abrir{
+    background-color: #FFCB04;
+    border:#FFCB04;
+    font-family: "Oswald";
+    font-size:20px;
+}
+
+.mapa{
+    height: 150px;
+    width: 150px;
+    margin-top: 25px;
+}
+
+.fotoClinica{
+    height: 150px;
+    width: 150px;
+    margin-top: 25px;
+}
+
+.info{
+    font-family: "Oswald";
+    font-size: 20px;
+
+    margin-top: 25px;
+}
+
+.rodape{
+    background-color: rgb(18, 18, 18);
+    width: 100%;
+    height: 400px;
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.rodape a{
+    color: #789999;
+    font-size: 20px;
+}
+
+.rodape p{
+    color: white;
+    font-family: "Oswald";
+    font-size: 30px;
+}
+
+.CCG{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.recentes{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.direitos{
+    text-align: center;
+    background: black;
+    font-size: 20px;
+    color: #789999;
+    padding: 15px;
+}

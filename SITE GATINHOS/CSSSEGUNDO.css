@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Buycat';
+    src: url('Buycat.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Oswald';
+    src: url('Oswald-VariableFont_wght.ttf') format('truetype');
+}
+.crazycat{
+    font-family: "Buycat";
+    font-size: 60px;
+    margin-top: 20px;
+    color: black;
+}
+.barrinha{
+    background-color: #FFCB04;
+    margin-top: 0;
+    width: "device-width";
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.botoes{
+    font-family: 'Oswald';
+    margin-top: 0px;
+    background-color: #FFCB04;
+    border-color: transparent;
+    font-size: 25px;
+}
+
+.subtitulo{
+    font-family: "Oswald";
+    text-align: center;
+    font-size: 30px;
+}
+.subtitulo{
+    font-family: "Oswald";
+    text-align: center;
+    font-size: 30px;
+}
+
+.pesquisa{
+    text-align: center;
+}
+
+.barraPesquisa{
+    font-family: "Oswald";
+    font-size: 15px;
+
+    border: black solid 2px;
+    border-radius: 40px;
+
+    height: 60px;
+    width: 40%;
+    text-align: start;
+}
+
+.quadrado{
+    width: 50%;
+    height: 200px;
+    background-color: #ffde58;
+    margin-top: 20px;
+    margin-left: 50vh;
+    margin-right: -10vh;
+    border:#FFCB04 3px solid;
+    display: flex;
+
+}
+
+.imageGato{
+    width: 170px;
+    margin-top: 1px;
+    margin-left: 5px;
+    border:#FFCB04 3px solid;
+}
+
+.dadosGato{
+    font-family: 'Oswald';
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 250px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.infoGato{
+    font-family: 'Oswald';
+    background-color: #FFCB04;
+    font-size: 25px;
+    border: none;
+    width: 70px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.rodape{
+    background-color: rgb(18, 18, 18);
+    width: 100%;
+    height: 400px;
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.rodape a{
+    color: #789999;
+    font-size: 20px;
+}
+
+.rodape p{
+    color: white;
+    font-family: "Oswald";
+    font-size: 30px;
+}
+
+.CCG{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.recentes{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.direitos{
+    text-align: center;
+    background: black;
+    font-size: 20px;
+    color: #789999;
+    padding: 15px;
+
+}
