@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'AnonymousPro-Bold';
+  src: url('AnonymousPro-Bold.ttf') format('truetype');
+
+}
+
+@font-face {
+  font-family: 'LeagueSpartan-Bold';
+  src: url('LeagueSpartan.ttf') format('truetype');
+}
+
+.corpo {
+  margin: 0px;
+}
+
+.menu {
+  width: 100%;
+  height: 100px;
+  background-color: #86A6B5;
+  color: black;
+  font-family: 'AnonymousPro-Bold';
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  align-items: center;
+
+}
+
+.estiloUm {
+  width: 100%;
+  height: 30px;
+  padding: 40px;
+
+}
+
+.andressaUm {
+  width: 100%;
+  height: 400px;
+  background-color: #86A6B5;
+  display: flex;
+
+}
+
+.andressaDois {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+  font-family: 'LeagueSpartan';
+  color: black;
+  width: 70%;
+  height: 90%;
+
+}
+
+.imageAndressa {
+  width: 60%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.imageDois {
+  width: 100%;
+  height: 100%;
+}
+
+.sobreMim{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: 'AnonymusPro-Bold';
+  color: black;
+  background-color: #86A6B5;
+}
+
+.divBranco{
+  width: 100%;
+  height: 10px;
+  display: flex;
+}
+.tituloMaterias{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background-color: #bbcbd3;
+  justify-content: center;
+  align-items: center;
+  font-family: 'LeagueSpartan';
+}
+.imageDoisFilo{
+  display: flex;
+  margin-right: 40px;
+}
+
+.fundo{
+  display: flex;
+  font-family: 'AnonymusPro-Bold';
+  font-size: 30px;
+  justify-content: center;
+  background-color: #cbd3d8;
+  padding: 30px;
+}
+.videoFilo{
+  font-family: 'AnonymusPro-Bold';
+  font-size: 30px;
+  background-color: #cbd3d8;
+  padding: 30px;
+}
+.fundoDois{
+  background-color: #e8e8e8;
+  padding: 30px;
+  justify-content: center;
+  display: flex;
+}
+.title{
+  font-family: 'AnonymusPro-Bold';
+  font-size: 30px;
+  background-color: #e8e8e8 ;
+  padding: 30px;
+}
+a {
+  color: inherit;
+  /* Inherit the color from the parent element */
+  text-decoration: none;
+  /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline;
+  /* Optional: add underline on hover */
+}
